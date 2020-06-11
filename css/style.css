@@ -1,0 +1,125 @@
+body {
+    max-width: 1000px;
+    background: #f8f8f8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    color: brown;
+    transition-duration: 0.3s;
+}
+
+.logo img {
+    background: white;
+}
+
+.menu {
+    color: green;
+    list-style-type: none;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.gidro ul {
+    font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    background: #eaeaea;
+    text-align: center;
+}
+
+
+img[alt="gidro"] {
+    border: 5px blue dashed;
+    padding: 5px;
+    height: 100%;
+    margin: 5px
+}
+
+.gidro {
+    background: url(../img/footer_bg.png) no-repeat -490px -450px fixed #E8E9E9;
+    width: 100%;
+}
+
+.gidro h1 {
+    border-bottom: 3px gray dashed;
+    width: 60%;
+    margin: 2% auto;
+}
+
+.gidro i {
+    font-size: 18px;
+    padding-left: 15px;
+    font-weight: 400;
+    color: beige;
+}
+
+.gidro ul {
+    display: inline-block;
+    color: brown;
+    font-size: 28px;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 30px;
+    list-style-image: url(../img/timetable.png)
+}
+
+.decisions {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.approach,
+.catalogue-page {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+input {
+    margin: 5px 0
+}
+
+input[type="text"] {
+    height: 1.5em;
+    width: 15em;
+}
+
+input[type="text"],
+textarea {
+    color: green;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 0.2em 0.3em;
+}
+
+.contacts {
+    background: white;
+}
+
+.catalogue div {
+    display: flex;
+    
+}
+
+.catalogue figure {
+    margin-left: 0;
+}
