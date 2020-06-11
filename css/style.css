@@ -43,10 +43,15 @@ h3 {
 
 
 img[alt="gidro"] {
-    border: 5px blue dashed;
+    outline: 5px blue dashed;
     padding: 5px;
     height: 100%;
-    margin: 5px
+    margin: 25px 45px
+}
+
+.gidro img:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
 }
 
 .gidro {
