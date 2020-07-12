@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+html,
+body {
+    /*    для прижатия вниз footer*/
+    height: 100%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -14,16 +20,16 @@ body {
     clear: both;
 }
 
-/*pading-и для некоторых секций*/
-.padding-site {
-    padding-left: 98px;
-    padding-right: 98px;
-}
-
 /*центрирование содержимого сайта*/
 .container {
     width: 1366px;
     margin: 0 auto;
+}
+
+/*pading-и для некоторых секций*/
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
 }
 
 .slider,
@@ -399,7 +405,8 @@ body {
     margin-bottom: 0;
 }
 
-.exclusive-container:hover, .excl-prod:hover {
+.exclusive-container:hover,
+.excl-prod:hover {
     box-shadow: 0 5px 9px 2px rgba(33, 33, 33, 0.35);
 }
 
@@ -507,7 +514,7 @@ body {
     text-align: left;
     width: 187px;
     display: inline-block;
-    margin-left: 98px; 
+    margin-left: 98px;
 }
 
 .block-useful {
@@ -587,7 +594,8 @@ body {
     transition: 0.2s
 }
 
-.block-2-fonts span:hover, .submit-input:hover {
+.block-2-fonts span:hover,
+.submit-input:hover {
     color: cadetblue;
 }
 
@@ -595,4 +603,30 @@ body {
     transform: scale(1.3);
     display: inline-block;
 }
+
 /*footer*/
+
+/*our-products*/
+
+.our-products {
+    height: 360px;
+    background-color: #f5f5f5;
+}
+
+.our-products-text {
+    margin-top: 186px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+}
+
+.trending-products_mt {
+    padding-top: 60px;
+    clear: both;
+}
+
+/*our-products*/
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (max-width: 600px) {}
