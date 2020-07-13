@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?j0l9hu');
-  src:  url('fonts/icomoon.eot?j0l9hu#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?j0l9hu') format('truetype'),
-    url('fonts/icomoon.woff?j0l9hu') format('woff'),
-    url('fonts/icomoon.svg?j0l9hu#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?cz8d1h');
+  src:  url('fonts/icomoon.eot?cz8d1h#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?cz8d1h') format('truetype'),
+    url('fonts/icomoon.woff?cz8d1h') format('woff'),
+    url('fonts/icomoon.svg?cz8d1h#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -39,4 +39,10 @@
 }
 .icon-twitter-with-circle:before {
   content: "\e904";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-loop2:before {
+  content: "\ea2e";
 }
